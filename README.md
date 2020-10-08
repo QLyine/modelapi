@@ -35,7 +35,12 @@
   models. A better datastore ( for bigger models ) is an Object Store + Database
   ( Storing Metadata )
 
-  * .NET broker is used almost as a proxy and as a master
+  * .NET broker is used almost as a proxy and as a master that coordinates the
+  model api
+
+  * Python Model API which contains a REST API and the Model
+
+![alt text](https://raw.githubusercontent.com/QLyine/modelapi/master/Diagram.png)
 
 
 
