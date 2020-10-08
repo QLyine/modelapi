@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".dockerignore" t="Include" />
+      <e p="Controllers" t="Include">
+        <e p="ModelController.cs" t="Include" />
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="APIHostPort.cs" t="Include" />
+        <e p="ApiModelFitRequest.cs" t="Include" />
+        <e p="ApiModelForecastResponse.cs" t="Include" />
+        <e p="BrokerModelData.cs" t="Include" />
+        <e p="ModelVersion.cs" t="Include" />
+        <e p="StateMachine.cs" t="Include" />
+        <e p="TempData.cs" t="Include" />
+      </e>
+      <e p="Dockerfile" t="Include" />
+      <e p="Model" t="Include">
+        <e p="ArimaModelRepository.cs" t="Include" />
+        <e p="Coordinator.cs" t="Include" />
+        <e p="DataRepository.cs" t="Include" />
+        <e p="IArimaModelRepository.cs" t="Include" />
+        <e p="ICoordinator.cs" t="Include" />
+        <e p="IDataRepository.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="Tests" t="Include">
+        <e p="CoordinatorTest.cs" t="Include" />
+      </e>
+      <e p="WeatherForecast.cs" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="out_ai.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="out_ai.csproj" t="IncludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="python_proj" t="Include">
+        <e p="Dockerfile" t="Include" />
+        <e p="dataset.csv" t="Include" />
+        <e p="dataset_simple" t="Include" />
+        <e p="http_server.py" t="Include" />
+        <e p="requirements.txt" t="Include" />
+        <e p="sample.py" t="Include" />
+        <e p="try_pickle.py" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
