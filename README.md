@@ -97,8 +97,8 @@ changed:
 #### Fit Model
 
 Problem: If a node or every Model Web API node fails to fit model, then for every
-subsequent fit model failure will happen, because at that point forward there 
-.NET has lost the location of the Model Web API.
+subsequent fit model failure will happen, because at that point forward
+.NET has lost the location/reference of the Model Web APIs.
 
 Solution: Either revert to initial state ( ModelVersion - 0 ) and thus all nodes
 are going to be discoverable. Or revert to the latest model on the database.
