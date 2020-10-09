@@ -14,59 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d65907f4-fe2b-485f-988a-2549a9ec8205" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/ModelController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/APIHostPort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ApiModelFitRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ApiModelForecastResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/BrokerModelData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ModelVersion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/StateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/TempData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/ArimaModelRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Coordinator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/DataRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/IArimaModelRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/ICoordinator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/IDataRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/CoordinatorTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/chashes.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/repository/ads_repository.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/repository/networks.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/repository/publisher_repository.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/repository/types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/repository/utils.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rust-microtracker/src/url_utils.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tblxchallenge/src/main/java/org/example/eda/CsvRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tblxchallenge/src/main/java/org/example/eda/ReadCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../url-template-parser/src/types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/GenerateSpatialTemporalOccupancy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/IMapSlicesOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/MapSlicesOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/NoNoiseCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/Q1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/Q2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/SpatialTemporalOccupancyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/data/MapSlice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/data/MapSlices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/data/VesselDataPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/CSVSpatialTemporalDataWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/IReadMapSlices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/ISpatialTemporalDataWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/IVesselDataPointsFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/MapSlicesGeoJSONReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/io/VesselDataPointsCSVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/noise/BerthFrequencyNoiseCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/noise/CompositeNoiseCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/noise/DedupNoiseCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/main/java/org/example/eda/noise/INoiseCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/GenerateSpatialTemporalOccupancyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/MapSlicesOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/io/MapSlicesGeoJSONReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/io/VesselDataPointsCSVReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/noise/BerthFrequencyNoiseCancelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vships/src/test/java/org/example/eda/noise/DedupNoiseCancelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.out_ai.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.out_ai.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +154,7 @@
       <updated>1601918456670</updated>
       <workItem from="1601918464282" duration="55133000" />
       <workItem from="1602080249245" duration="1243000" />
-      <workItem from="1602175085626" duration="238000" />
+      <workItem from="1602175085626" duration="873000" />
     </task>
     <servers />
   </component>
